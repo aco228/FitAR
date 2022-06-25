@@ -8,7 +8,7 @@ namespace FitAR.Database
     public ARDirect() 
       : base("fitardb",
           "dbo",
-          "Server=tcp:fitarserver.database.windows.net,1433;Initial Catalog=fitardb;Persist Security Info=False;User ID=fitar;Password=#aroot123leksa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=3000;")
+          "Server=[];Initial Catalog=fitardb;Persist Security Info=False;User ID=fitar;Password=[];MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=3000;")
     { }
 
 
